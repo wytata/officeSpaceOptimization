@@ -1,0 +1,67 @@
+/* COLORS
+#b6eada green
+#5b8fb9 blue
+#301e67 purple
+#03001c black
+*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #03001c;
+    margin-top: 0px;
+}
+
+.content {
+    height: 80vh;
+    background-color: #e8e2e2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    background-color: #03001c;
+}
+
+.header, .footer {
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #e8e2e2;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #5b8fb9;
+    color: white;
+}
