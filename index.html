@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
     <title>Office Space Optimization</title>
+
+    <script src = 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
+    </script>
 </head>
 <body>
     <div class="header">
@@ -13,22 +17,68 @@
     </div>
 
     <div class="content">
-        <div class"table-container">
-            <table>
+        <div class= "table-container">
+            <table id="Floors">
                 <tr>
                     <th>Floor</th>
                     <th>Max Capacity</th>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
                 </tr>
             </table>
+            <div class="button-container">
+                <button class="add-floor" id="addFloor">Add Floor</button>
+                <button class="remove-floor" id="removeFloor">Remove Floor</button>
+            </div>
+        </div>
+        <div class="table-container">
+            <table id="Compatibilities">
+                <tr>
+                    <th>Team</th>
+                    <th>Strength</th>
+                    <th>Preferred</th>
+                    <th>Tolerated</th>
+                    <th>No Way</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </table>
+            <div class="button-container">
+                <button class="add-team" id="addTeam">Add Team</button>
+                <button class="remove-team" id="removeTeam">Remove Team</button>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="submit">
+                Submit Data
+            </button>
         </div>
     </div>
 
     <div class="footer">
         By: Shahir, Saniya, and Wyatt
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

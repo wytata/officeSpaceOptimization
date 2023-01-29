@@ -65,3 +65,31 @@ th {
     background-color: #5b8fb9;
     color: white;
 }
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add-floor, .remove-floor, .add-team, .remove-team, .submit {
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: #e8e2e2;
+}
+
+button {
+    font-family:'Courier New', Courier, monospace;
+}
+
+input {
+    text-align: center;
+}
+
+.submit {
+    width: 80px;
+    height: 50px;
+    color: white;
+    background-color: #301e67;
+}
